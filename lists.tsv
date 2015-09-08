@@ -1,31 +1,36 @@
-Title	government-body	URL
-Local authority services		http://local.direct.gov.uk/Data/
-Cars and vans eligable for the plug-in grant		https://www.gov.uk/plug-in-car-van-grants/eligibility
+title	public-body	url	fields
+Closed fishing areas	marine-management-organisation	https://www.gov.uk/government/collections/closed-fishing-areas-in-english-waters	fishing-zone;boundary
+Property categories	valuation-office-agency	https://www.gov.uk/government/statistics/central-and-local-rating-lists-summary-england-and-wales
+Fishing vessel licence types	marine-management-organisation	https://www.gov.uk/government/publications/fishing-vessel-licence-types	fish
+Electrical and electronic equipment producers	environment-agency	https://www.gov.uk/government/statistics/weee-registered-producers-public-register	company;premises
+Jobcentre areas where you can claim Universal Credit	department-for-work-pensions	https://www.gov.uk/guidance/jobcentres-where-you-can-claim-universal-credit
+Local authority services	department-for-communities-and-local-government	http://local.direct.gov.uk/Data/	public-body
+Cars and vans eligible for the plug-in grant	office-for-low-emission-vehicles	https://www.gov.uk/plug-in-car-van-grants/eligibility
 Designated bathing waters in England	environment-agency	https://www.gov.uk/government/publications/bathing-waters-list-of-designated-waters-in-england
-Bank holidays	cabinet-office	https://www.gov.uk/bank-holidays
-Power stations	department-of-energy-climate-change	https://www.gov.uk/government/statistics/electricity-chapter-5-digest-of-united-kingdom-energy-statistics-dukes
-Food Standards hygiene ratings	food-standards-agency	http://ratings.food.gov.uk/open-data/en-GB
-Driving licence codes		https://www.gov.uk/driving-licence-codes
-Police forces		https://www.police.uk/forces/
-'Banks' who are adopting or readopting the Code of Practice on Taxation		https://www.gov.uk/government/publications/banks-that-have-adopted-the-banking-code-of-practice
-Official cattle breeds and codes		https://www.gov.uk/guidance/official-cattle-breeds-and-codes
-Scheduled closing times for The Thames Barrier		https://www.gov.uk/guidance/the-thames-barrier
-Fish species codes used by the Electronic Recording and Reporting of Fishing Activity Scheme (ERS)		http://www.fishregister.gov.uk/DocumentDownload.aspx?Filter=jDPScKB40nE=&amp;Authority=1vwUEIXV6E8=
-The London Diplomatic List		https://www.gov.uk/government/publications/foreign-embassies-in-the-uk
-NHS foundation trust directory and register of licensed healthcare providers		https://www.gov.uk/government/publications/nhs-foundation-trust-directory
-Quota catch limits for the over 10 metres non-sector pool		https://www.gov.uk/government/publications/current-catch-limits-over-10-metre-non-sector-pool
-Overseas registries		https://www.gov.uk/government/publications/overseas-registries/overseas-registries
-Foreign exchange rates issued by HM Revenue and Customs (HMRC)		https://www.gov.uk/government/publications/hmrc-exchange-rates-for-2015-monthly
-Dartmoor firing times		https://www.gov.uk/government/publications/dartmoor-firing-programme
-Mine water treatment sites		https://www.gov.uk/government/publications/2010-to-2015-government-policy-energy-industry-and-infrastructure-licensing-and-regulation
-Companies participating in the cyber security supplier to government scheme		https://www.gov.uk/government/publications/cyber-security-supplier-to-government-scheme/cyber-security-supplier-to-government-scheme-list-of-participating-companies
-Companies who have been given quotas to run longer semi-trailers as part of a trial		https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/321250/list-of-operators.csv/preview
-Tiers 2 and 5 (UK Visas and immigration) sports governing bodies		https://www.gov.uk/government/publications/tier-2-and-5-sports-governing-bodies
-Permanent secretaries		https://www.gov.uk/government/organisations/civil-service/about/our-governance
-Medals, campaigns, descriptions and eligibility		https://www.gov.uk/guidance/medals-campaigns-descriptions-and-eligibility
-Medicines, medical devices and blood regulation and safety marketing authorisations		https://www.gov.uk/government/collections/marketing-authorisations-lists-of-granted-licences
-General licences for wildlife management		https://www.gov.uk/government/collections/general-licences-for-wildlife-management
-Public register of rail passenger franchise agreements		https://www.gov.uk/government/collections/public-register-of-rail-passenger-franchise-agreements
+Bank holidays	cabinet-office	https://www.gov.uk/bank-holidays	calendar
+Power stations	department-of-energy-climate-change	https://www.gov.uk/government/statistics/electricity-chapter-5-digest-of-united-kingdom-energy-statistics-dukes	company
+Food Standards hygiene ratings	food-standards-agency	http://ratings.food.gov.uk/open-data/en-GB	company;premises
+Driving licence codes	driver-and-vehicle-licensing-agency	https://www.gov.uk/driving-licence-codes
+Police forces	home-office	https://www.police.uk/forces/	boundary
+'Banks' who are adopting or readopting the Code of Practice on Taxation	hm-revenue-customs	https://www.gov.uk/government/publications/banks-that-have-adopted-the-banking-code-of-practice	company
+Official cattle breeds and codes	british-cattle-movement-service	https://www.gov.uk/guidance/official-cattle-breeds-and-codes
+Scheduled closing times for The Thames Barrier	environment-agency	https://www.gov.uk/guidance/the-thames-barrier	calendar
+Fish species codes used by the Electronic Recording and Reporting of Fishing Activity Scheme (ERS)	marine-management-organisation	http://www.fishregister.gov.uk/DocumentDownload.aspx?Filter=jDPScKB40nE=&amp;Authority=1vwUEIXV6E8=	fish
+The London Diplomatic List	foreign-commonwealth-office	https://www.gov.uk/government/publications/foreign-embassies-in-the-uk	premises
+NHS foundation trust directory and register of licensed healthcare providers	monitor	https://www.gov.uk/government/publications/nhs-foundation-trust-directory	public-body;company
+Quota catch limits for the over 10 metres non-sector pool	marine-management-organisation	https://www.gov.uk/government/publications/current-catch-limits-over-10-metre-non-sector-pool	fish;fishing-zone
+Overseas registries	companies-house	https://www.gov.uk/government/publications/overseas-registries/overseas-registries	country
+Foreign exchange rates issued by HM Revenue and Customs (HMRC)	hm-revenue-customs	https://www.gov.uk/government/publications/hmrc-exchange-rates-for-2015-monthly	country
+Dartmoor firing times	ministry-of-defence	https://www.gov.uk/government/publications/dartmoor-firing-programme	calendar
+Mine water treatment sites	department-of-energy-climate-change	https://www.gov.uk/government/publications/2010-to-2015-government-policy-energy-industry-and-infrastructure-licensing-and-regulation	
+Companies participating in the cyber security supplier to government scheme	department-for-business-innovation-skills	https://www.gov.uk/government/publications/cyber-security-supplier-to-government-scheme	company
+Companies who have been given quotas to run longer semi-trailers as part of a trial	department-for-transport	https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/321250/list-of-operators.csv/preview	company
+Tiers 2 and 5 (UK Visas and immigration) sports governing bodies	uk-visas-and-immigration	https://www.gov.uk/government/publications/tier-2-and-5-sports-governing-bodies
+Permanent secretaries	civil-service	https://www.gov.uk/government/organisations/civil-service/about/our-governance	public-body
+Medals, campaigns, descriptions and eligibility	ministry-of-defence	https://www.gov.uk/guidance/medals-campaigns-descriptions-and-eligibility
+Medicines, medical devices and blood regulation and safety marketing authorisations	medicines-and-healthcare-products-regulatory-agency	https://www.gov.uk/government/collections/marketing-authorisations-lists-of-granted-licences	company;product
+General licences for wildlife management	natural-england	https://www.gov.uk/government/collections/general-licences-for-wildlife-management	wildlife-species
+Public register of rail passenger franchise agreements	department-for-transport	https://www.gov.uk/government/collections/public-register-of-rail-passenger-franchise-agreements	company
 Higher learning institutions that offer courses in the UK that can lead to a degree		https://www.gov.uk/check-a-university-is-officially-recognised/listed-bodies
 Car fuel and emissions		http://carfueldata.dft.gov.uk/downloads/default.aspx
 Free schools, open schools and successful applications 		https://www.gov.uk/government/publications/free-schools-open-schools-and-successful-applications
@@ -48,13 +53,13 @@ Registered providers of social housing		https://www.gov.uk/government/publicatio
 Registered common land		https://www.gov.uk/common-land-registers-how-to-register-and-deregister-common-land
 Registered homeopathic medicine or remedy		https://www.gov.uk/register-a-homeopathic-medicine-or-remedy
 Rural-Urban classification of Local Authority Districts		https://www.gov.uk/government/statistics/2011-rural-urban-classification-of-local-authority-and-other-higher-level-geographies-for-statistical-purposes
-Authorised claims companies		https://www.claimsregulation.gov.uk/search.aspx?search=simple
+Authorised claims companies	ministry-of-justice	https://www.claimsregulation.gov.uk/search.aspx?search=simple	company
 Rail Accident Investigation Branch current investigations		https://www.gov.uk/government/publications/raib-current-investigations-register/rail-accident-investigation-branch-current-investigations
 Expeditions to Antarctica		https://www.gov.uk/visits-to-antarctica-how-to-apply-for-a-permit
-Ministry of Defence film locations		https://www.gov.uk/government/publications/film-locations
+Ministry of Defence film locations	ministry-of-defence	https://www.gov.uk/government/publications/film-locations
 Trade unions		https://www.gov.uk/government/publications/public-list-of-active-trade-unions-official-list-and-schedule
-Recognised animal breeding organisations		https://www.gov.uk/government/publications/lists-of-recognised-animal-breeding-organisations
-Natural mineral waters recognised in the UK		https://www.gov.uk/food-standards-labelling-durability-and-composition
+Recognised animal breeding organisations	department-for-environment-food-rural-affairs	https://www.gov.uk/government/publications/lists-of-recognised-animal-breeding-organisations
+Natural mineral waters recognised in the UK	department-for-environment-food-rural-affairs	https://www.gov.uk/food-standards-labelling-durability-and-composition
 Gas meter type approval certificates		https://www.gov.uk/government/publications/gas-meter-type-approval-certificates-annex-mi-002
 Decisions under the Competition Act 1998		https://www.gov.uk/government/publications/ca98-public-register
 Negligible value agreements		https://www.gov.uk/negligible-value-agreements-to-30-june-2014
@@ -66,19 +71,19 @@ Deliberate tax defaulters		https://www.gov.uk/government/publications/publishing
 Prescribed bodies for whistleblowing		https://www.gov.uk/government/publications/blowing-the-whistle-list-of-prescribed-people-and-bodies--2
 Amateur vegetable variety forms		https://www.gov.uk/government/publications/amateur-vegetables-variety-descriptions
 Academy sponsor contact		https://www.gov.uk/government/publications/academy-sponsor-contact-list
-Bodies required to present accounts to the Treasury		http://www.legislation.gov.uk/uksi/2014/2234/made?view=plain
+Bodies required to present accounts to the Treasury	hm-treasury	http://www.legislation.gov.uk/uksi/2014/2234/made?view=plain	public-body
 Deaths registered in the UK		https://www.gov.uk/uk-registered-deaths
 Vehicle owner clubs		https://www.gov.uk/government/publications/list-of-vehicle-owner-clubs
 Unclaimed estates		https://www.gov.uk/government/statistical-data-sets/unclaimed-estates-list
 Strategic export control lists		https://www.gov.uk/uk-strategic-export-control-lists-the-consolidated-list-of-strategic-military-and-dual-use-items
-Companies licensed to sponsor workers under Tiers 2 and 5 (immigration)		https://www.gov.uk/government/publications/register-of-licensed-sponsors-workers
+Companies licensed to sponsor workers under Tiers 2 and 5 (immigration)	uk-visas-and-immigration	https://www.gov.uk/government/publications/register-of-licensed-sponsors-workers	company
 Vexatious litigants		https://www.gov.uk/vexatious-litigants
 Regime specific financial sanctions		https://www.gov.uk/government/collections/financial-sanctions-regime-specific-consolidated-lists-and-releases
 Vehicle tax rates		https://www.gov.uk/vehicle-tax-rate-tables
-Foreign &amp; Commonwealth Office lists of Funeral Directors		https://www.gov.uk/search?q=list+o+funeral+directors&amp;filter_organisations%5B%5D=foreign-commonwealth-office
-GOV.UK domain names		https://www.gov.uk/government/publications/list-of-gov-uk-domain-names
-Register of Consultant Lobbyists		https://www.gov.uk/government/publications/register-of-consultant-lobbyists
-Approved suppliers of equipment for slapmarking pigs		https://www.gov.uk/government/publications/slapmarking-pigs-approved-suppliers-of-equipment
-Civil marriages and partnerships: approved premises		https://www.gov.uk/government/publications/civil-marriages-and-partnerships-approved-premises-list
-Disinfectants for aquaculture		https://www.gov.uk/aquaculture-disinfectant-listing-scheme-apply-or-view
-List of authorised persons for radio surveys		https://www.gov.uk/government/publications/list-of-authorised-persons-for-radio-surveys
+Foreign funeral directors	foreign-commonwealth-office	https://www.gov.uk/search?q=list+o+funeral+directors&amp;filter_organisations%5B%5D=foreign-commonwealth-office	country
+GOV.UK domain names	government-digital-service	https://www.gov.uk/government/publications/list-of-gov-uk-domain-names	public-body
+Register of Consultant Lobbyists	office-of-the-registrar-of-consultant-lobbyists	https://www.gov.uk/government/publications/register-of-consultant-lobbyists	company
+Approved suppliers of equipment for slapmarking pigs	department-for-environment-food-rural-affairs	https://www.gov.uk/government/publications/slapmarking-pigs-approved-suppliers-of-equipment	company
+Civil marriages and partnerships: approved premises	hm-passport-office	https://www.gov.uk/government/publications/civil-marriages-and-partnerships-approved-premises-list	premises
+Disinfectants for aquaculture	centre-for-environment-fisheries-and-aquaculture-science	https://www.gov.uk/aquaculture-disinfectant-listing-scheme-apply-or-view	company
+Authorised persons for radio surveys	maritime-and-coastguard-agency	https://www.gov.uk/government/publications/list-of-authorised-persons-for-radio-surveys	company
