@@ -30,69 +30,86 @@ function build_css(bodies) {
   });
 }
 
-d3.json(register_url('public-body'), function(data) {
 
-  var bodies = register_index('public-body', data);
-  build_css(bodies);
+/* add a card, with pagination */
+var count = 0;
+var page, row;
 
-  d3.tsv(lists_url, function(lists) {
+function add_card(item, kind, bodies) {
 
-    var page, row, card, middle, tags, footer, p;
-    var count = 0;
+    var body = bodies[item['public-body']] || {};
+
+    var card, middle, tags, footer, p;
+
+    /* pagination */
+    if (0 === (count % 8)) {
+      page = d3.select("body").append("div").attr("class", "page");
+    }
+
+    if (0 === (count % 2)) {
+      row = page.append("div").attr("class", "row");
+    }
+    count++;
+
+  card = row.append("div")
+    .attr("class", "card " + kind);
+
+  card.append("h2")
+    .text(item.title);
+
+  middle = card.append("div")
+    .attr("class", "middle");
+
+  tags = middle.append("div")
+    .attr("class", "tags");
+
+  middle.append("a")
+    .attr("class", "url")
+    .attr("href", item.url)
+    .text(item.url);
+
+  if (item.fields) {
+    item.fields.split(";").forEach(function (field) {
+      tags.append("span")
+        .attr("class", "tag")
+        .text(field);
+    });
+  }
+
+  footer = card.append("div")
+    .attr("class", "footer");
+
+  p = footer.append("p")
+    .attr("class", "public-body " + item['public-body'] + (body.crest ? " crest" : "" ));
+
+  if (body.crest) {
+    p.append("img")
+      .attr("src", "crests/" + body.crest + ".png");
+  }
+
+  p.append("a")
+    .attr("href", body.website)
+    .text(body.name);
+}
+
+function add_cards(url, kind, bodies) {
+  d3.tsv(url, function(lists) {
 
     lists.forEach(function (item) {
 
-      var body_id = item['public-body'];
-      var body = bodies[body_id] || {};
-
-      if (0 === (count % 8)) {
-        page = d3.select("body").append("div").attr("class", "page");
-      }
-
-      if (0 === (count % 2)) {
-        row = page.append("div").attr("class", "row");
-      }
-      count++;
-
-      card = row.append("div")
-        .attr("class", "card");
-
-      card.append("h2")
-        .text(item.title);
-
-      middle = card.append("div")
-        .attr("class", "middle");
-
-      tags = middle.append("div")
-        .attr("class", "tags");
-
-      middle.append("a")
-        .attr("class", "url")
-        .attr("href", item.url)
-        .text(item.url);
-
-      if (item.fields) {
-        item.fields.split(";").forEach(function (field) {
-          tags.append("span")
-            .attr("class", "tag")
-            .text(field);
-        });
-      }
-
-      footer = card.append("div")
-        .attr("class", "footer");
-
-      p = footer.append("p")
-        .attr("class", "public-body " + body_id + (body.crest ? " crest" : "" ));
-
-      if (body.crest) {
-        p.append("img")
-          .attr("src", "crests/" + body.crest + ".png");
-      }
-
-      p.append("a")
-        .attr("href", body.website)
-        .text(body.name);
+      add_card(item, kind, bodies);
     });
   });
+}
+
+function get_bodies(callback) {
+  d3.json(register_url('public-body'), function(data) {
+    var bodies = register_index('public-body', data);
+    build_css(bodies);
+    callback(bodies);
+  });
+}
+
+get_bodies(function (bodies) {
+  add_cards(lists_url, "list", bodies);
 });
