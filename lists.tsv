@@ -1,8 +1,9 @@
 title	public-body	url	fields
+Passport interview offices	hm-passport-office	https://www.gov.uk/government/publications/list-of-interview-offices	address
 Closed fishing areas	marine-management-organisation	https://www.gov.uk/government/collections/closed-fishing-areas-in-english-waters	fishing-zone;boundary
 Property categories	valuation-office-agency	https://www.gov.uk/government/statistics/central-and-local-rating-lists-summary-england-and-wales	
-Fishing vessel licence types	marine-management-organisation	https://www.gov.uk/government/publications/fishing-vessel-licence-types	fish	
-Electrical and electronic equipment producers	environment-agency	https://www.gov.uk/government/statistics/weee-registered-producers-public-register	company;premises
+Fishing vessel licence types	marine-management-organisation	https://www.gov.uk/government/publications/fishing-vessel-licence-types	fish
+Electrical and electronic equipment producers	environment-agency	https://www.gov.uk/government/statistics/weee-registered-producers-public-register	company;address
 Jobcentre areas where you can claim Universal Credit	department-for-work-pensions	https://www.gov.uk/guidance/jobcentres-where-you-can-claim-universal-credit	
 Local authority services	department-for-communities-and-local-government	http://local.direct.gov.uk/Data/	public-body
 Cars and vans eligible for the plug-in grant	office-for-low-emission-vehicles	https://www.gov.uk/plug-in-car-van-grants/eligibility	vehicle
@@ -31,18 +32,18 @@ Medals, campaigns, descriptions and eligibility	ministry-of-defence	https://www.
 Medicines, medical devices and blood regulation and safety marketing authorisations	medicines-and-healthcare-products-regulatory-agency	https://www.gov.uk/government/collections/marketing-authorisations-lists-of-granted-licences	company;product
 General licences for wildlife management	natural-england	https://www.gov.uk/government/collections/general-licences-for-wildlife-management	wildlife-species
 Public register of rail passenger franchise agreements	department-for-transport	https://www.gov.uk/government/collections/public-register-of-rail-passenger-franchise-agreements	company
-Higher learning institutions that offer courses in the UK that can lead to a degree		https://www.gov.uk/check-a-university-is-officially-recognised/listed-bodies	
-Car fuel and emissions		http://carfueldata.dft.gov.uk/downloads/default.aspx	
-Free schools, open schools and successful applications 		https://www.gov.uk/government/publications/free-schools-open-schools-and-successful-applications	
-Herbal medicines granted a traditional herbal registration		https://www.gov.uk/government/publications/herbal-medicines-granted-a-traditional-herbal-registration-thr	
-British forces post office locations		https://www.gov.uk/government/publications/british-forces-post-office-locations	
-Standard industrial classification of economic activities		https://www.gov.uk/government/publications/standard-industrial-classification-of-economic-activities-sic	
-All the datasets that local government must submit to central government		https://www.gov.uk/government/publications/single-data-list	
-Apprenticeship standards		https://www.gov.uk/government/collections/apprenticeship-standards	
-Vessels 10 metres and under		https://www.gov.uk/government/statistical-data-sets/vessel-lists-10-metres-and-under	
-Tariff notices		https://www.gov.uk/government/collections/tariff-notices	
-Monthly visits to museums and galleries sponsored by the Department for Culture, Media and Sport		https://www.gov.uk/government/statistical-data-sets/museums-and-galleries-monthly-visits	
-Register of forensic pathologists		https://www.gov.uk/government/publications/home-office-register-of-forensic-pathologists-february-2013	
+Higher learning institutions that offer courses in the UK that can lead to a degree	skills-funding-agency	https://www.gov.uk/check-a-university-is-officially-recognised/listed-bodies	
+Car fuel and emissions	vehicle-certification-agency	http://carfueldata.dft.gov.uk/downloads/default.aspx	vehicle
+Free schools, open schools and successful applications 	department-for-education	https://www.gov.uk/government/publications/free-schools-open-schools-and-successful-applications	learning-provider
+Herbal medicines granted a traditional herbal registration	medicines-and-healthcare-products-regulatory-agency	https://www.gov.uk/government/publications/herbal-medicines-granted-a-traditional-herbal-registration-thr	company;product
+British forces post office locations	ministry-of-defence	https://www.gov.uk/government/publications/british-forces-post-office-locations	postcode;country;vessel
+Standard industrial classification of economic activities	companies-house	https://www.gov.uk/government/publications/standard-industrial-classification-of-economic-activities-sic	
+All the datasets that local government must submit to central government	department-for-communities-and-local-government	https://www.gov.uk/government/publications/single-data-list	public-body
+Apprenticeship standards	skills-funding-agency	https://www.gov.uk/government/collections/apprenticeship-standards	
+Vessels 10 metres and under	marine-management-organisation	https://www.gov.uk/government/statistical-data-sets/vessel-lists-10-metres-and-under	
+Tariff notices	hm-revenue-customs	https://www.gov.uk/government/collections/tariff-notices	
+Monthly visits to museums and galleries	department-for-culture-media-sport	https://www.gov.uk/government/statistical-data-sets/museums-and-galleries-monthly-visits	
+Register of forensic pathologists	home-office	https://www.gov.uk/government/publications/home-office-register-of-forensic-pathologists-february-2013	
 Sites with consent for deliberate release of genetically modified organisms		https://www.gov.uk/government/publications/genetically-modified-organisms-list-of-current-consents	
 Outer space objects where the UK is the “launching state”		https://www.gov.uk/government/publications/uk-registry-outer-space-objects	
 Protected food names		https://www.gov.uk/government/collections/protected-food-name-scheme-uk-registered-products	
