@@ -1,4 +1,14 @@
 title	public-body	url	fields
+Company formation companies	companies-house	https://www.gov.uk/government/publications/formation-and-company-secretarial-agents	company
+Parentage testing organisations	child-support-agency	https://www.gov.uk/dna-testing-parentage-disagreements	company
+Civil penalty accreditation scheme	border-force	https://www.gov.uk/government/publications/civil-penalty-accreditation-scheme-accredited-haulage-companies	company
+Company names tribunals	company-names-tribunal	https://www.gov.uk/government/publications/company-names-tribunal-undefended-decisions-and-orders	
+Codes for registered street works	department-for-transport	https://www.gov.uk/government/publications/street-works-register	
+Qualifications: simplified funding rates	skills-funding-agency	https://www.gov.uk/government/publications/qualifications-simplified-funding-rates-2015-to-2016	company
+Renewable energy projects	department-of-energy-climate-change	https://www.gov.uk/government/statistics/renewable-energy-planning-database-monthly-extract	company;latitude;longitude
+Panel engineers for reservoirs	environment-agency	https://www.gov.uk/government/publications/contact-details-of-engineers-on-the-all-reservoirs-panel	company
+Property price paid	land-registry	https://www.gov.uk/government/statistical-data-sets/price-paid-data-downloads	address
+Apprentice assessment organisations	skills-funding-agency	https://www.gov.uk/government/publications/register-of-apprentice-assessment-organisations	company
 Passport interview offices	hm-passport-office	https://www.gov.uk/government/publications/list-of-interview-offices	address
 Closed fishing areas	marine-management-organisation	https://www.gov.uk/government/collections/closed-fishing-areas-in-english-waters	fishing-zone;boundary
 Property categories	valuation-office-agency	https://www.gov.uk/government/statistics/central-and-local-rating-lists-summary-england-and-wales	
