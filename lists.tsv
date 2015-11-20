@@ -1,4 +1,17 @@
 title	public-body	url	fields
+Local reference level rents	valuation-office-agency	https://www.gov.uk/government/collections/local-reference-rents-levels-collection	
+Gambling commission premises licences 	gamboling-comission	http://www.gamblingcommission.gov.uk/Find-licensees.aspx	
+Websites dealing with geographical names	foreign-commonwealth-office	https://www.gov.uk/government/publications/geographical-names-websites-on-the-internet/a-selection-of-web-sites-throughout-the-world-dealing-with-geographical-names	
+Land Registry index polygons	land-registry	https://www.gov.uk/government/collections/download-inspire-index-polygons	
+Courses offered by learning providers	skills-funding-agency	https://www.gov.uk/government/publications/sfa-course-directory	
+National public transport access nodes	department-for-transport	https://www.gov.uk/government/publications/national-public-transport-access-node-schema	
+Cycle safety fund schemes	department-for-transport	https://www.gov.uk/government/publications/cycle-safety-fund-list-of-schemes	
+Public sector organisations eligible to use Digital Marketplace		cabinet-office	https://www.gov.uk/government/publications/public-sector-organisations-eligible-to-use-cloudstore	
+Treaties	foreign-commonwealth-office	https://www.gov.uk/guidance/uk-treaties	
+Trademark classifications	intellectual-property-office	https://www.gov.uk/government/publications/how-to-classify-trade-marks	product-type
+Parallel import licences			product
+Traffic signs			
+Academies	department-for-education	https://www.gov.uk/government/publications/open-academies-and-academy-projects-in-development	academy
 Rail interoperability notified bodies and designated bodies	department-for-transport	https://www.gov.uk/government/publications/rail-interoperability-notified-bodies	company
 Company formation companies	companies-house	https://www.gov.uk/government/publications/formation-and-company-secretarial-agents	company
 Parentage testing organisations	department-for-work-pensions	https://www.gov.uk/dna-testing-parentage-disagreements	company
@@ -55,7 +68,7 @@ Vessels 10 metres and under	marine-management-organisation	https://www.gov.uk/go
 Tariff notices	hm-revenue-customs	https://www.gov.uk/government/collections/tariff-notices	
 Monthly visits to museums and galleries	department-for-culture-media-sport	https://www.gov.uk/government/statistical-data-sets/museums-and-galleries-monthly-visits	
 Register of forensic pathologists	home-office	https://www.gov.uk/government/publications/home-office-register-of-forensic-pathologists-february-2013	
-Sites with consent for deliberate release of genetically modified organisms		https://www.gov.uk/government/publications/genetically-modified-organisms-list-of-current-consents	
+Sites with consent for deliberate release of genetically modified organisms	department-for-environment-food-rural-affairs	https://www.gov.uk/government/publications/genetically-modified-organisms-list-of-current-consents	
 Outer space objects where the UK is the “launching state”		https://www.gov.uk/government/publications/uk-registry-outer-space-objects	
 Protected food names		https://www.gov.uk/government/collections/protected-food-name-scheme-uk-registered-products	
 Pollutant thresholds		http://prtr.defra.gov.uk/pollutant-list?view=thresholds	
