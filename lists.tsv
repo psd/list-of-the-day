@@ -1,12 +1,13 @@
 title	public-body	url	fields
+Registered charities in England and Wales	charity-commission	http://data.charitycommission.gov.uk/	
 Local reference level rents	valuation-office-agency	https://www.gov.uk/government/collections/local-reference-rents-levels-collection	
-Gambling commission premises licences 	gamboling-comission	http://www.gamblingcommission.gov.uk/Find-licensees.aspx	
+Gambling commission premises licences 	gambling-comission	http://www.gamblingcommission.gov.uk/Find-licensees.aspx	
 Websites dealing with geographical names	foreign-commonwealth-office	https://www.gov.uk/government/publications/geographical-names-websites-on-the-internet/a-selection-of-web-sites-throughout-the-world-dealing-with-geographical-names	
 Land Registry index polygons	land-registry	https://www.gov.uk/government/collections/download-inspire-index-polygons	
 Courses offered by learning providers	skills-funding-agency	https://www.gov.uk/government/publications/sfa-course-directory	
 National public transport access nodes	department-for-transport	https://www.gov.uk/government/publications/national-public-transport-access-node-schema	
 Cycle safety fund schemes	department-for-transport	https://www.gov.uk/government/publications/cycle-safety-fund-list-of-schemes	
-Public sector organisations eligible to use Digital Marketplace		cabinet-office	https://www.gov.uk/government/publications/public-sector-organisations-eligible-to-use-cloudstore	
+Public sector organisations eligible to use Digital Marketplace	cabinet-office	https://www.gov.uk/government/publications/public-sector-organisations-eligible-to-use-cloudstore	
 Treaties	foreign-commonwealth-office	https://www.gov.uk/guidance/uk-treaties	
 Trademark classifications	intellectual-property-office	https://www.gov.uk/government/publications/how-to-classify-trade-marks	product-type
 Parallel import licences			product
